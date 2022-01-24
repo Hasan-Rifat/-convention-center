@@ -5,6 +5,12 @@
     --main-font: 16px;
     --lineHight: 24px;
     --font-w: 500;
+    --font-ww: 600;
+    --text-color: #0A0826;
+}
+
+.main-color {
+    color: var(--text-color);
 }
 
 body {
@@ -16,5 +22,65 @@ body {
     font-size: var(--main-font);
     line-height: var(--lineHight);
     font-weight: var(--font-w);
-    padding: 25px 0;
+    padding: px 0;
+}
+
+.btn-1 {
+    padding: 10px 44px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    color: #3F87F5;
+    font-weight: var(--font-ww);
+}
+
+.section-text {
+    color: #6C6C6C;
+    font-weight: 600;
+}
+
+.btn-2 {
+    background: #3F87F5;
+    padding: 10px 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.package-text {
+    font-weight: 600 !important;
+}
+
+/* our pack  */
+.card {
+    border: none;
+}
+
+.col-card {
+    margin-top: -70px;
+}
+
+.extra-card {
+    background: #3F87F5 !important;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+    border-radius: 26px;
+}
+
+.extra-card h1,
+.extra-card h3,
+.extra-card p,
+.extra-card ul,
+.extra-card li {
+    color: #fff;
+}
+
+.pack-d {
+    color: #848199;
+}
+
+.btn-3 {
+    color: #3F87F5;
+    background: #fef5fa;
+    border-radius: 24px;
+    padding: 13px 62px;
+    margin-top: 20px;
+    font-weight: 600;
 }
