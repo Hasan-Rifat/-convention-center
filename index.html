@@ -19,7 +19,7 @@
         <!-- Menu start -->
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand fw-bold" href="#">Hasan Rifat</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -131,7 +131,16 @@
                     </div>
                 </div>
                 <div class="mt-5 col-sm-12 col-md-7 col-lg-7 my-sm-3 py-sm-3">
-                    <h1 class="fw-bold main-color">Every moment is Precious </h1>
+                    <div class="toast align-items-center show" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="d-flex">
+                            <div class="toast-body">
+                                Hello, world! This is a toast message.
+                            </div>
+                            <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast"
+                                aria-label="Close"></button>
+                        </div>
+                    </div>
+                    <h1 class="fw-bold main-color mt-3">Every moment is Precious </h1>
                     <p class="section-text my-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
                         sint. Velit officia consequat
                         duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
@@ -243,10 +252,10 @@
         <section class="container clinet">
             <div class="row">
                 <div class="col">
-                    <h2 class="text-center py-md-4 pb-lg-4 package-text main-color">Happy Clients says</h2>
+                    <h2 class="text-center py-md-4 pb-lg-4 py-4 package-text main-color">Happy Clients says</h2>
                 </div>
             </div>
-            <div class="row row-cols-1 row-cols-md-3 g-5 my-5">
+            <div class="row row-cols-1 row-cols-md-3 g-5 my-lg-5 my-md-5">
                 <div class="col">
                     <div class="card card-clinet h-100 text-center">
                         <p class="card-text card-h-text">Slate helps you see how <br>
@@ -290,14 +299,14 @@
         </section>
         <!-- Happy Clients says end  -->
         <!-- Frequently Asked Questions start-->
-        <section class="faq container py-5 my-5">
+        <section class="faq container py-5 my-lg-5 my-md-5">
             <div class="row">
                 <div class="col">
                     <h1 class="text-center py-md-5 pb-lg-5 package-text main-color">Frequently Asked Questions</h1>
                 </div>
             </div>
             <div class="row">
-                <div class="col col-md-6 col-lg-6">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4 mt-3">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
@@ -375,7 +384,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col col-md-6 col-lg-6">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                     <div class="faq-img">
                         <img src="images/people.png" class="img-fluid" alt="">
                     </div>
@@ -384,17 +393,19 @@
         </section>
         <!-- Frequently Asked Questions end-->
         <!-- form start-->
-        <section class="form container py-5 my-5">
+        <section class="form container py-lg-5 py-md-5 my-5">
             <div class="row">
                 <div class="col">
-                    <h1 class="text-center pb-md-5 pb-lg-5 package-text main-color">Registration</h1>
+                    <h1 class="text-center pb-md-5 pb-lg-5 package-text main-color pb-3">Registration</h1>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-6 col-md-6">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116834.00977781991!2d90.34928576871451!3d23.78077774458107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1643028226397!5m2!1sen!2sbd"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116834.00977781991!2d90.34928576871451!3d23.78077774458107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1643028226397!5m2!1sen!2sbd"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <form class="row g-3">
@@ -453,12 +464,12 @@
         <div class="container">
             <div class="row d-flex align-items-center">
                 <div class="col-lg-6 col-md-6 col-12">
-                    <div class="footer-text">
+                    <div class="footer-text text-center text-lg-start text-md-start">
                         <p>© 2022 Hasan Rifat. All rights reserved</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-12">
-                    <div class="footer-download text-end">
+                    <div class="footer-download text-center text-lg-end text-md-end">
                         <h4>Get the App</h4>
                         <p><img src="images/App Store Badge.png" alt=""></p>
                         <p><img src="images/Google Play Badge.png" alt=""></p>
@@ -469,6 +480,17 @@
     </footer>
     <!-- footer end  -->
     <!-- bootstrap js -->
+    <script>
+        var toastTrigger = document.getElementById('liveToastBtn')
+        var toastLiveExample = document.getElementById('liveToast')
+        if (toastTrigger) {
+            toastTrigger.addEventListener('click', function () {
+                var toast = new bootstrap.Toast(toastLiveExample)
+
+                toast.show()
+            })
+        }
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
